@@ -1,0 +1,6 @@
+2018-03-25 14:38:43,155 INFO 8020 [Timer] E:\nodejs\task-server\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute at 2018-03-26 00:00:00.000
+2018-03-25 14:38:43,156 INFO 8020 [Timer] E:\nodejs\task-server\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute at 2018-03-26 00:00:01.000
+2018-03-25 15:41:09,574 INFO 14712 [Timer] E:\nodejs\task-server\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute at 2018-03-26 00:00:00.000
+2018-03-25 15:41:09,575 INFO 14712 [Timer] E:\nodejs\task-server\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute at 2018-03-26 00:00:01.000
+2018-03-25 16:16:50,898 INFO 10268 [Timer] E:\nodejs\task-server\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute at 2018-03-26 00:00:00.000
+2018-03-25 16:16:50,899 INFO 10268 [Timer] E:\nodejs\task-server\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute at 2018-03-26 00:00:01.000

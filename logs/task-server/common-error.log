@@ -1,0 +1,63 @@
+2018-03-25 14:46:48,054 ERROR 13212 [-/::1/-/50ms GET /] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (E:\nodejs\task-server\node_modules\egg\lib\application.js:252:15)
+    at Object.get cookies [as cookies] (E:\nodejs\task-server\node_modules\egg\app\extend\context.js:18:66)
+    at Object.get [egg-security#CSRF_SECRET] (E:\nodejs\task-server\node_modules\egg-security\app\extend\context.js:77:33)
+    at Object.ensureCsrfSecret (E:\nodejs\task-server\node_modules\egg-security\app\extend\context.js:88:13)
+    at csrf (E:\nodejs\task-server\node_modules\egg-security\lib\middlewares\csrf.js:14:9)
+    at dispatch (E:\nodejs\task-server\node_modules\koa-compose\index.js:42:32)
+    at E:\nodejs\task-server\node_modules\koa-compose\index.js:34:12
+    at dispatch (E:\nodejs\task-server\node_modules\koa-compose\index.js:42:32)
+    at next (E:\nodejs\task-server\node_modules\koa-compose\index.js:43:18)
+    at session (E:\nodejs\task-server\node_modules\koa-session\index.js:41:13)
+
+pid: 13212
+hostname: vidahaha
+
+2018-03-25 16:22:47,110 ERROR 13260 [-/::1/-/8ms GET /login] nodejs.ReferenceError: ctx is not defined
+    at HomeController.login (E:\nodejs\task-server\app\controller\home.js:5:20)
+    at Object.callFn (E:\nodejs\task-server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (E:\nodejs\task-server\node_modules\egg-core\lib\loader\mixin\controller.js:84:20)
+    at Object.callFn (E:\nodejs\task-server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at wrappedController (E:\nodejs\task-server\node_modules\egg-core\lib\utils\router.js:322:18)
+    at dispatch (E:\nodejs\task-server\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (E:\nodejs\task-server\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at E:\nodejs\task-server\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (E:\nodejs\task-server\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at E:\nodejs\task-server\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+
+pid: 13260
+hostname: vidahaha
+
+2018-03-25 16:22:59,373 ERROR 13980 [-/::1/-/11ms GET /login] nodejs.ER_NO_SUCH_TABLEError: ER_NO_SUCH_TABLE: La table 'hzauca_task.user' n'existe pas
+    at Query.Sequence._packetToError (E:\nodejs\task-server\node_modules\mysql\lib\protocol\sequences\Sequence.js:52:14)
+    at Query.ErrorPacket (E:\nodejs\task-server\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (E:\nodejs\task-server\node_modules\mysql\lib\protocol\Protocol.js:279:23)
+    at Parser.write (E:\nodejs\task-server\node_modules\mysql\lib\protocol\Parser.js:76:12)
+    at Protocol.write (E:\nodejs\task-server\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\nodejs\task-server\node_modules\mysql\lib\Connection.js:103:28)
+    at Socket.emit (events.js:180:13)
+    at addChunk (_stream_readable.js:269:12)
+    at readableAddChunk (_stream_readable.js:256:11)
+    at Socket.Readable.push (_stream_readable.js:213:10)
+    --------------------
+    at Pool.query (E:\nodejs\task-server\node_modules\mysql\lib\Pool.js:199:23)
+    at E:\nodejs\task-server\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (E:\nodejs\task-server\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (E:\nodejs\task-server\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (E:\nodejs\task-server\node_modules\ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (E:\nodejs\task-server\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (E:\nodejs\task-server\node_modules\co\index.js:65:19)
+    at E:\nodejs\task-server\node_modules\co\index.js:54:5
+    sql: SELECT * FROM `user` WHERE `id` = 0 LIMIT 0, 1
+code: 'ER_NO_SUCH_TABLE'
+errno: 1146
+sqlMessage: 'La table \'hzauca_task.user\' n\'existe pas'
+sqlState: '42S02'
+index: 0
+sql: 'SELECT * FROM `user` WHERE `id` = 0 LIMIT 0, 1'
+name: 'ER_NO_SUCH_TABLEError'
+pid: 13980
+hostname: vidahaha
+

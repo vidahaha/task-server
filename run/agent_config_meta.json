@@ -1,0 +1,261 @@
+{
+  "keys": "E:\\nodejs\\task-server\\config\\config.default.js",
+  "security": {
+    "domainWhiteList": "E:\\nodejs\\task-server\\config\\config.default.js",
+    "protocolWhiteList": "E:\\nodejs\\task-server\\node_modules\\egg-security\\config\\config.default.js",
+    "defaultMiddleware": "E:\\nodejs\\task-server\\node_modules\\egg-security\\config\\config.default.js",
+    "csrf": {
+      "enable": "E:\\nodejs\\task-server\\node_modules\\egg-security\\config\\config.default.js",
+      "useSession": "E:\\nodejs\\task-server\\node_modules\\egg-security\\config\\config.default.js",
+      "ignoreJSON": "E:\\nodejs\\task-server\\node_modules\\egg-security\\config\\config.default.js",
+      "cookieName": "E:\\nodejs\\task-server\\node_modules\\egg-security\\config\\config.default.js",
+      "sessionName": "E:\\nodejs\\task-server\\node_modules\\egg-security\\config\\config.default.js",
+      "headerName": "E:\\nodejs\\task-server\\node_modules\\egg-security\\config\\config.default.js",
+      "bodyName": "E:\\nodejs\\task-server\\node_modules\\egg-security\\config\\config.default.js",
+      "queryName": "E:\\nodejs\\task-server\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "xframe": {
+      "enable": "E:\\nodejs\\task-server\\node_modules\\egg-security\\config\\config.default.js",
+      "value": "E:\\nodejs\\task-server\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "hsts": {
+      "enable": "E:\\nodejs\\task-server\\node_modules\\egg-security\\config\\config.local.js",
+      "maxAge": "E:\\nodejs\\task-server\\node_modules\\egg-security\\config\\config.default.js",
+      "includeSubdomains": "E:\\nodejs\\task-server\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "dta": {
+      "enable": "E:\\nodejs\\task-server\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "methodnoallow": {
+      "enable": "E:\\nodejs\\task-server\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "noopen": {
+      "enable": "E:\\nodejs\\task-server\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "nosniff": {
+      "enable": "E:\\nodejs\\task-server\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "referrerPolicy": {
+      "enable": "E:\\nodejs\\task-server\\node_modules\\egg-security\\config\\config.default.js",
+      "value": "E:\\nodejs\\task-server\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "xssProtection": {
+      "enable": "E:\\nodejs\\task-server\\node_modules\\egg-security\\config\\config.default.js",
+      "value": "E:\\nodejs\\task-server\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "csp": {
+      "enable": "E:\\nodejs\\task-server\\node_modules\\egg-security\\config\\config.default.js",
+      "policy": "E:\\nodejs\\task-server\\node_modules\\egg-security\\config\\config.default.js"
+    }
+  },
+  "cors": {
+    "origin": "E:\\nodejs\\task-server\\config\\config.default.js",
+    "credentials": "E:\\nodejs\\task-server\\config\\config.default.js"
+  },
+  "mysql": {
+    "client": {
+      "host": "E:\\nodejs\\task-server\\config\\config.default.js",
+      "port": "E:\\nodejs\\task-server\\config\\config.default.js",
+      "user": "E:\\nodejs\\task-server\\config\\config.default.js",
+      "password": "E:\\nodejs\\task-server\\config\\config.default.js",
+      "database": "E:\\nodejs\\task-server\\config\\config.default.js"
+    },
+    "app": "E:\\nodejs\\task-server\\config\\config.default.js",
+    "agent": "E:\\nodejs\\task-server\\config\\config.default.js",
+    "default": {
+      "database": "E:\\nodejs\\task-server\\node_modules\\egg-mysql\\config\\config.default.js",
+      "connectionLimit": "E:\\nodejs\\task-server\\node_modules\\egg-mysql\\config\\config.default.js"
+    }
+  },
+  "session": {
+    "maxAge": "E:\\nodejs\\task-server\\node_modules\\egg-session\\config\\config.default.js",
+    "key": "E:\\nodejs\\task-server\\node_modules\\egg-session\\config\\config.default.js",
+    "httpOnly": "E:\\nodejs\\task-server\\node_modules\\egg-session\\config\\config.default.js",
+    "encrypt": "E:\\nodejs\\task-server\\node_modules\\egg-session\\config\\config.default.js"
+  },
+  "helper": {
+    "shtml": "E:\\nodejs\\task-server\\node_modules\\egg-security\\config\\config.default.js"
+  },
+  "jsonp": {
+    "limit": "E:\\nodejs\\task-server\\node_modules\\egg-jsonp\\config\\config.default.js",
+    "callback": "E:\\nodejs\\task-server\\node_modules\\egg-jsonp\\config\\config.default.js",
+    "csrf": "E:\\nodejs\\task-server\\node_modules\\egg-jsonp\\config\\config.default.js"
+  },
+  "onerror": {
+    "errorPageUrl": "E:\\nodejs\\task-server\\node_modules\\egg-onerror\\config\\config.default.js",
+    "appErrorFilter": "E:\\nodejs\\task-server\\node_modules\\egg-onerror\\config\\config.default.js"
+  },
+  "i18n": {
+    "defaultLocale": "E:\\nodejs\\task-server\\node_modules\\egg-i18n\\config\\config.default.js",
+    "dirs": "E:\\nodejs\\task-server\\node_modules\\egg-i18n\\config\\config.default.js",
+    "queryField": "E:\\nodejs\\task-server\\node_modules\\egg-i18n\\config\\config.default.js",
+    "cookieField": "E:\\nodejs\\task-server\\node_modules\\egg-i18n\\config\\config.default.js",
+    "cookieMaxAge": "E:\\nodejs\\task-server\\node_modules\\egg-i18n\\config\\config.default.js"
+  },
+  "watcher": {
+    "type": "E:\\nodejs\\task-server\\node_modules\\egg-watcher\\config\\config.local.js",
+    "eventSources": {
+      "default": "E:\\nodejs\\task-server\\node_modules\\egg-watcher\\config\\config.default.js",
+      "development": "E:\\nodejs\\task-server\\node_modules\\egg-watcher\\config\\config.default.js"
+    }
+  },
+  "multipart": {
+    "autoFields": "E:\\nodejs\\task-server\\node_modules\\egg-multipart\\config\\config.default.js",
+    "defaultCharset": "E:\\nodejs\\task-server\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fieldNameSize": "E:\\nodejs\\task-server\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fieldSize": "E:\\nodejs\\task-server\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fields": "E:\\nodejs\\task-server\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fileSize": "E:\\nodejs\\task-server\\node_modules\\egg-multipart\\config\\config.default.js",
+    "files": "E:\\nodejs\\task-server\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fileExtensions": "E:\\nodejs\\task-server\\node_modules\\egg-multipart\\config\\config.default.js",
+    "whitelist": "E:\\nodejs\\task-server\\node_modules\\egg-multipart\\config\\config.default.js"
+  },
+  "development": {
+    "watchDirs": "E:\\nodejs\\task-server\\node_modules\\egg-development\\config\\config.default.js",
+    "ignoreDirs": "E:\\nodejs\\task-server\\node_modules\\egg-development\\config\\config.default.js",
+    "fastReady": "E:\\nodejs\\task-server\\node_modules\\egg-development\\config\\config.default.js",
+    "reloadOnDebug": "E:\\nodejs\\task-server\\node_modules\\egg-development\\config\\config.default.js",
+    "overrideDefault": "E:\\nodejs\\task-server\\node_modules\\egg-development\\config\\config.default.js"
+  },
+  "customLogger": {
+    "scheduleLogger": {
+      "consoleLevel": "E:\\nodejs\\task-server\\node_modules\\egg-schedule\\config\\config.default.js",
+      "file": "E:\\nodejs\\task-server\\node_modules\\egg-schedule\\config\\config.default.js"
+    }
+  },
+  "logrotator": {
+    "filesRotateByHour": "E:\\nodejs\\task-server\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "hourDelimiter": "E:\\nodejs\\task-server\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "filesRotateBySize": "E:\\nodejs\\task-server\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "maxFileSize": "E:\\nodejs\\task-server\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "maxFiles": "E:\\nodejs\\task-server\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "rotateDuration": "E:\\nodejs\\task-server\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "maxDays": "E:\\nodejs\\task-server\\node_modules\\egg-logrotator\\config\\config.default.js"
+  },
+  "static": {
+    "prefix": "E:\\nodejs\\task-server\\node_modules\\egg-static\\config\\config.default.js",
+    "dir": "E:\\nodejs\\task-server\\node_modules\\egg-static\\config\\config.default.js",
+    "dynamic": "E:\\nodejs\\task-server\\node_modules\\egg-static\\config\\config.default.js",
+    "preload": "E:\\nodejs\\task-server\\node_modules\\egg-static\\config\\config.default.js",
+    "buffer": "E:\\nodejs\\task-server\\node_modules\\egg-static\\config\\config.default.js",
+    "maxFiles": "E:\\nodejs\\task-server\\node_modules\\egg-static\\config\\config.default.js"
+  },
+  "view": {
+    "root": "E:\\nodejs\\task-server\\node_modules\\egg-view\\config\\config.default.js",
+    "cache": "E:\\nodejs\\task-server\\node_modules\\egg-view\\config\\config.local.js",
+    "defaultExtension": "E:\\nodejs\\task-server\\node_modules\\egg-view\\config\\config.default.js",
+    "defaultViewEngine": "E:\\nodejs\\task-server\\node_modules\\egg-view\\config\\config.default.js",
+    "mapping": "E:\\nodejs\\task-server\\node_modules\\egg-view\\config\\config.default.js"
+  },
+  "env": "E:\\nodejs\\task-server\\node_modules\\egg\\config\\config.default.js",
+  "name": "E:\\nodejs\\task-server\\node_modules\\egg\\config\\config.default.js",
+  "proxy": "E:\\nodejs\\task-server\\node_modules\\egg\\config\\config.default.js",
+  "protocolHeaders": "E:\\nodejs\\task-server\\node_modules\\egg\\config\\config.default.js",
+  "ipHeaders": "E:\\nodejs\\task-server\\node_modules\\egg\\config\\config.default.js",
+  "hostHeaders": "E:\\nodejs\\task-server\\node_modules\\egg\\config\\config.default.js",
+  "pkg": {
+    "name": "E:\\nodejs\\task-server\\node_modules\\egg\\config\\config.default.js",
+    "version": "E:\\nodejs\\task-server\\node_modules\\egg\\config\\config.default.js",
+    "description": "E:\\nodejs\\task-server\\node_modules\\egg\\config\\config.default.js",
+    "main": "E:\\nodejs\\task-server\\node_modules\\egg\\config\\config.default.js",
+    "scripts": {
+      "test": "E:\\nodejs\\task-server\\node_modules\\egg\\config\\config.default.js",
+      "dev": "E:\\nodejs\\task-server\\node_modules\\egg\\config\\config.default.js"
+    },
+    "author": "E:\\nodejs\\task-server\\node_modules\\egg\\config\\config.default.js",
+    "license": "E:\\nodejs\\task-server\\node_modules\\egg\\config\\config.default.js",
+    "dependencies": {
+      "egg": "E:\\nodejs\\task-server\\node_modules\\egg\\config\\config.default.js",
+      "egg-cors": "E:\\nodejs\\task-server\\node_modules\\egg\\config\\config.default.js",
+      "egg-mysql": "E:\\nodejs\\task-server\\node_modules\\egg\\config\\config.default.js"
+    },
+    "devDependencies": {
+      "egg-bin": "E:\\nodejs\\task-server\\node_modules\\egg\\config\\config.default.js"
+    }
+  },
+  "baseDir": "E:\\nodejs\\task-server\\node_modules\\egg\\config\\config.default.js",
+  "HOME": "E:\\nodejs\\task-server\\node_modules\\egg\\config\\config.default.js",
+  "rundir": "E:\\nodejs\\task-server\\node_modules\\egg\\config\\config.default.js",
+  "dump": {
+    "ignore": "E:\\nodejs\\task-server\\node_modules\\egg\\config\\config.default.js"
+  },
+  "confusedConfigurations": {
+    "bodyparser": "E:\\nodejs\\task-server\\node_modules\\egg\\config\\config.default.js",
+    "notFound": "E:\\nodejs\\task-server\\node_modules\\egg\\config\\config.default.js",
+    "sitefile": "E:\\nodejs\\task-server\\node_modules\\egg\\config\\config.default.js",
+    "middlewares": "E:\\nodejs\\task-server\\node_modules\\egg\\config\\config.default.js",
+    "httpClient": "E:\\nodejs\\task-server\\node_modules\\egg\\config\\config.default.js"
+  },
+  "notfound": {
+    "pageUrl": "E:\\nodejs\\task-server\\node_modules\\egg\\config\\config.default.js"
+  },
+  "siteFile": {
+    "/favicon.ico": "E:\\nodejs\\task-server\\node_modules\\egg\\config\\config.default.js"
+  },
+  "bodyParser": {
+    "enable": "E:\\nodejs\\task-server\\node_modules\\egg\\config\\config.default.js",
+    "encoding": "E:\\nodejs\\task-server\\node_modules\\egg\\config\\config.default.js",
+    "formLimit": "E:\\nodejs\\task-server\\node_modules\\egg\\config\\config.default.js",
+    "jsonLimit": "E:\\nodejs\\task-server\\node_modules\\egg\\config\\config.default.js",
+    "strict": "E:\\nodejs\\task-server\\node_modules\\egg\\config\\config.default.js",
+    "queryString": {
+      "arrayLimit": "E:\\nodejs\\task-server\\node_modules\\egg\\config\\config.default.js",
+      "depth": "E:\\nodejs\\task-server\\node_modules\\egg\\config\\config.default.js",
+      "parameterLimit": "E:\\nodejs\\task-server\\node_modules\\egg\\config\\config.default.js"
+    }
+  },
+  "logger": {
+    "dir": "E:\\nodejs\\task-server\\node_modules\\egg\\config\\config.default.js",
+    "encoding": "E:\\nodejs\\task-server\\node_modules\\egg\\config\\config.default.js",
+    "env": "E:\\nodejs\\task-server\\node_modules\\egg\\config\\config.default.js",
+    "level": "E:\\nodejs\\task-server\\node_modules\\egg\\config\\config.default.js",
+    "consoleLevel": "E:\\nodejs\\task-server\\node_modules\\egg\\config\\config.default.js",
+    "disableConsoleAfterReady": "E:\\nodejs\\task-server\\node_modules\\egg\\config\\config.default.js",
+    "outputJSON": "E:\\nodejs\\task-server\\node_modules\\egg\\config\\config.default.js",
+    "buffer": "E:\\nodejs\\task-server\\node_modules\\egg\\config\\config.default.js",
+    "appLogName": "E:\\nodejs\\task-server\\node_modules\\egg\\config\\config.default.js",
+    "coreLogName": "E:\\nodejs\\task-server\\node_modules\\egg\\config\\config.default.js",
+    "agentLogName": "E:\\nodejs\\task-server\\node_modules\\egg\\config\\config.default.js",
+    "errorLogName": "E:\\nodejs\\task-server\\node_modules\\egg\\config\\config.default.js",
+    "coreLogger": {
+      "consoleLevel": "E:\\nodejs\\task-server\\node_modules\\egg\\config\\config.local.js"
+    },
+    "allowDebugAtProd": "E:\\nodejs\\task-server\\node_modules\\egg\\config\\config.default.js"
+  },
+  "httpclient": {
+    "enableDNSCache": "E:\\nodejs\\task-server\\node_modules\\egg\\config\\config.default.js",
+    "dnsCacheMaxLength": "E:\\nodejs\\task-server\\node_modules\\egg\\config\\config.default.js",
+    "dnsCacheMaxAge": "E:\\nodejs\\task-server\\node_modules\\egg\\config\\config.default.js",
+    "request": {
+      "timeout": "E:\\nodejs\\task-server\\node_modules\\egg\\config\\config.default.js"
+    },
+    "httpAgent": {
+      "keepAlive": "E:\\nodejs\\task-server\\node_modules\\egg\\config\\config.default.js",
+      "freeSocketKeepAliveTimeout": "E:\\nodejs\\task-server\\node_modules\\egg\\config\\config.default.js",
+      "maxSockets": "E:\\nodejs\\task-server\\node_modules\\egg\\config\\config.default.js",
+      "maxFreeSockets": "E:\\nodejs\\task-server\\node_modules\\egg\\config\\config.default.js"
+    },
+    "httpsAgent": {
+      "keepAlive": "E:\\nodejs\\task-server\\node_modules\\egg\\config\\config.default.js",
+      "freeSocketKeepAliveTimeout": "E:\\nodejs\\task-server\\node_modules\\egg\\config\\config.default.js",
+      "maxSockets": "E:\\nodejs\\task-server\\node_modules\\egg\\config\\config.default.js",
+      "maxFreeSockets": "E:\\nodejs\\task-server\\node_modules\\egg\\config\\config.default.js"
+    }
+  },
+  "meta": {
+    "enable": "E:\\nodejs\\task-server\\node_modules\\egg\\config\\config.default.js",
+    "logging": "E:\\nodejs\\task-server\\node_modules\\egg\\config\\config.default.js"
+  },
+  "coreMiddleware": "E:\\nodejs\\task-server\\node_modules\\egg\\config\\config.default.js",
+  "workerStartTimeout": "E:\\nodejs\\task-server\\node_modules\\egg\\config\\config.default.js",
+  "cluster": {
+    "listen": {
+      "path": "E:\\nodejs\\task-server\\node_modules\\egg\\config\\config.default.js",
+      "port": "E:\\nodejs\\task-server\\node_modules\\egg\\config\\config.default.js",
+      "hostname": "E:\\nodejs\\task-server\\node_modules\\egg\\config\\config.default.js"
+    }
+  },
+  "clusterClient": {
+    "responseTimeout": "E:\\nodejs\\task-server\\node_modules\\egg\\config\\config.default.js"
+  }
+}
