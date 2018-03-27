@@ -61,3 +61,43 @@ name: 'ER_NO_SUCH_TABLEError'
 pid: 13980
 hostname: vidahaha
 
+2018-03-26 15:44:53,634 ERROR 13000 nodejs.ClusterClientNoResponseError: client no response in 5918393ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (E:\nodejs\task-server\node_modules\cluster-client\lib\leader.js:74:23)
+    at ontimeout (timers.js:466:11)
+    at tryOnTimeout (timers.js:304:5)
+    at Timer.listOnTimeout (timers.js:267:5)
+name: 'ClusterClientNoResponseError'
+pid: 13000
+hostname: vidahaha
+
+2018-03-26 17:21:40,572 ERROR 10140 [-/::1/-/6ms GET /login?name=1&password=1] nodejs.ReferenceError: ctx is not defined
+    at HomeController.login (E:\nodejs\task-server\app\controller\home.js:9:3)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:118:7)
+headers: { 'Access-Control-Allow-Origin': 'http://localhost:3000', 'Access-Control-Allow-Credentials': 'true' }
+pid: 10140
+hostname: vidahaha
+
+2018-03-27 12:21:42,304 ERROR 11532 [-/::1/-/12ms GET /login] nodejs.ReferenceError: ctx is not defined
+    at HomeController.login (E:\nodejs\task-server\app\controller\home.js:9:3)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:118:7)
+
+pid: 11532
+hostname: vidahaha
+
+2018-03-27 13:16:22,065 ERROR 12956 [-/::1/-/28ms POST /login] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (E:\nodejs\task-server\node_modules\egg\lib\application.js:252:15)
+    at Object.get cookies [as cookies] (E:\nodejs\task-server\node_modules\egg\app\extend\context.js:18:66)
+    at Object.get [egg-security#CSRF_SECRET] (E:\nodejs\task-server\node_modules\egg-security\app\extend\context.js:77:33)
+    at Object.ensureCsrfSecret (E:\nodejs\task-server\node_modules\egg-security\app\extend\context.js:88:13)
+    at csrf (E:\nodejs\task-server\node_modules\egg-security\lib\middlewares\csrf.js:14:9)
+    at dispatch (E:\nodejs\task-server\node_modules\koa-compose\index.js:42:32)
+    at E:\nodejs\task-server\node_modules\koa-compose\index.js:34:12
+    at dispatch (E:\nodejs\task-server\node_modules\koa-compose\index.js:42:32)
+    at next (E:\nodejs\task-server\node_modules\koa-compose\index.js:43:18)
+    at session (E:\nodejs\task-server\node_modules\koa-session\index.js:41:13)
+headers: { 'Access-Control-Allow-Origin': 'http://localhost:3000', 'Access-Control-Allow-Credentials': 'true' }
+pid: 12956
+hostname: vidahaha
+

@@ -5,7 +5,10 @@ module.exports = appInfo => {
 	config.keys = '12345646';
 
 	config.security = {
-		domainWhiteList: [ 'localhost:3000' ]
+		csrf: {
+			//enable: false,
+		},
+		domainWhiteList: [ 'http://localhost:3000' ]
 	};
 
 	config.cors = {

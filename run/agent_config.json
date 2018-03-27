@@ -8,12 +8,12 @@
     },
     "security": {
       "domainWhiteList": [
-        "localhost:3000"
+        "http://localhost:3000"
       ],
       "protocolWhiteList": [],
       "defaultMiddleware": "csrf,hsts,methodnoallow,noopen,nosniff,csp,xssProtection,xframe,dta",
       "csrf": {
-        "enable": true,
+        "enable": false,
         "useSession": false,
         "ignoreJSON": false,
         "cookieName": "csrfToken",
