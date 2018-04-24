@@ -13,20 +13,19 @@
     },
     "security": {
       "domainWhiteList": [
-        "http://localhost:3000"
+        "http://localhost:8080"
       ],
       "protocolWhiteList": [],
       "defaultMiddleware": "csrf,hsts,methodnoallow,noopen,nosniff,csp,xssProtection,xframe,dta",
       "csrf": {
-        "enable": true,
+        "enable": false,
         "useSession": false,
         "ignoreJSON": false,
         "cookieName": "csrfToken",
         "sessionName": "csrfToken",
         "headerName": "x-csrf-token",
         "bodyName": "_csrf",
-        "queryName": "_csrf",
-        "matching": "<Function anonymous>"
+        "queryName": "_csrf"
       },
       "xframe": {
         "enable": true,
@@ -165,7 +164,7 @@
       "mapping": {}
     },
     "cors": {
-      "origin": "http://localhost:3000",
+      "origin": "http://localhost:8080",
       "credentials": true
     },
     "mysql": {
@@ -179,8 +178,8 @@
         "host": "localhost",
         "port": "3306",
         "user": "root",
-        "password": "<String len: 0>",
-        "database": "hzauca_task"
+        "password": "<String len: 6>",
+        "database": "social_practice_management"
       }
     },
     "env": "local",

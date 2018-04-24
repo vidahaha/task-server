@@ -6,13 +6,13 @@ module.exports = appInfo => {
 
 	config.security = {
 		csrf: {
-			//enable: false,
+			enable: false,
 		},
-		domainWhiteList: [ 'http://localhost:3000' ]
+		domainWhiteList: [ 'http://localhost:8080' ]
 	};
 
 	config.cors = {
-		origin:'http://localhost:3000',
+		origin:'http://localhost:8080',
 		credentials: true,
 	};
 
@@ -26,9 +26,9 @@ module.exports = appInfo => {
 		// username
 		user: 'root',
 		// password
-		password: '',
+		password: '123456',
 		// database
-		database: 'hzauca_task',    
+		database: 'social_practice_management',    
 		},
 		// load into app, default is open
 		app: true,

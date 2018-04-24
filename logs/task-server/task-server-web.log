@@ -1375,3 +1375,37 @@ headers: { 'Access-Control-Allow-Origin': 'http://localhost:3000', 'Access-Contr
 pid: 1488
 hostname: vidahaha
 
+2018-04-24 20:07:10,801 WARN 9320 [-/::1/-/65ms POST /login] missing csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2018-04-24 20:07:10,804 WARN 9320 [-/::1/-/67ms POST /login] nodejs.ForbiddenError: missing csrf token
+    at Object.throw (E:\nodejs\task-server\node_modules\koa\lib\context.js:93:11)
+    at Object.assertCsrf (E:\nodejs\task-server\node_modules\egg-security\app\extend\context.js:139:17)
+    at csrf (E:\nodejs\task-server\node_modules\egg-security\lib\middlewares\csrf.js:31:9)
+    at dispatch (E:\nodejs\task-server\node_modules\koa-compose\index.js:42:32)
+    at E:\nodejs\task-server\node_modules\koa-compose\index.js:34:12
+    at dispatch (E:\nodejs\task-server\node_modules\koa-compose\index.js:42:32)
+    at next (E:\nodejs\task-server\node_modules\koa-compose\index.js:43:18)
+    at session (E:\nodejs\task-server\node_modules\koa-session\index.js:41:13)
+    at dispatch (E:\nodejs\task-server\node_modules\koa-compose\index.js:42:32)
+    at next (E:\nodejs\task-server\node_modules\koa-compose\index.js:43:18)
+message: 'missing csrf token'
+headers: { 'Access-Control-Allow-Origin': 'http://localhost:8080', 'Access-Control-Allow-Credentials': 'true' }
+pid: 9320
+hostname: vidahaha
+
+2018-04-24 20:16:22,625 WARN 13456 [-/::1/-/12ms POST /login] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2018-04-24 20:16:22,628 WARN 13456 [-/::1/-/14ms POST /login] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (E:\nodejs\task-server\node_modules\koa\lib\context.js:93:11)
+    at Object.assertCsrf (E:\nodejs\task-server\node_modules\egg-security\app\extend\context.js:148:17)
+    at csrf (E:\nodejs\task-server\node_modules\egg-security\lib\middlewares\csrf.js:31:9)
+    at dispatch (E:\nodejs\task-server\node_modules\koa-compose\index.js:42:32)
+    at E:\nodejs\task-server\node_modules\koa-compose\index.js:34:12
+    at dispatch (E:\nodejs\task-server\node_modules\koa-compose\index.js:42:32)
+    at next (E:\nodejs\task-server\node_modules\koa-compose\index.js:43:18)
+    at session (E:\nodejs\task-server\node_modules\koa-session\index.js:41:13)
+    at dispatch (E:\nodejs\task-server\node_modules\koa-compose\index.js:42:32)
+    at next (E:\nodejs\task-server\node_modules\koa-compose\index.js:43:18)
+message: 'invalid csrf token'
+headers: { 'Access-Control-Allow-Origin': 'http://localhost:8080', 'Access-Control-Allow-Credentials': 'true' }
+pid: 13456
+hostname: vidahaha
+

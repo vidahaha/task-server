@@ -101,3 +101,35 @@ headers: { 'Access-Control-Allow-Origin': 'http://localhost:3000', 'Access-Contr
 pid: 12956
 hostname: vidahaha
 
+2018-04-24 20:28:51,390 ERROR 2832 [-/::1/-/17ms POST /login] nodejs.TypeError: Assignment to constant variable.
+    at LoginService.checkLogin (E:\nodejs\task-server\app\service\login.js:8:20)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+headers: { 'Access-Control-Allow-Origin': 'http://localhost:8080', 'Access-Control-Allow-Credentials': 'true' }
+pid: 2832
+hostname: vidahaha
+
+2018-04-24 20:29:45,852 ERROR 13984 [-/::1/-/16ms POST /login] nodejs.TypeError: Assignment to constant variable.
+    at LoginService.checkLogin (E:\nodejs\task-server\app\service\login.js:9:20)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+headers: { 'Access-Control-Allow-Origin': 'http://localhost:8080', 'Access-Control-Allow-Credentials': 'true' }
+pid: 13984
+hostname: vidahaha
+
+2018-04-24 20:30:10,971 ERROR 11236 [-/::1/-/15ms POST /login] nodejs.TypeError: Assignment to constant variable.
+    at LoginService.checkLogin (E:\nodejs\task-server\app\service\login.js:8:20)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+headers: { 'Access-Control-Allow-Origin': 'http://localhost:8080', 'Access-Control-Allow-Credentials': 'true' }
+pid: 11236
+hostname: vidahaha
+
+2018-04-24 20:31:33,132 ERROR 4620 [-/::1/-/16ms POST /login] nodejs.TypeError: Assignment to constant variable.
+    at LoginService.checkLogin (E:\nodejs\task-server\app\service\login.js:8:20)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+headers: { 'Access-Control-Allow-Origin': 'http://localhost:8080', 'Access-Control-Allow-Credentials': 'true' }
+pid: 4620
+hostname: vidahaha
+

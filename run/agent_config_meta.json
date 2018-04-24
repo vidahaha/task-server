@@ -1,16 +1,7 @@
 {
   "keys": "E:\\nodejs\\task-server\\config\\config.default.js",
   "security": {
-    "csrf": {
-      "enable": "E:\\nodejs\\task-server\\config\\config.default.js",
-      "useSession": "E:\\nodejs\\task-server\\node_modules\\egg-security\\config\\config.default.js",
-      "ignoreJSON": "E:\\nodejs\\task-server\\node_modules\\egg-security\\config\\config.default.js",
-      "cookieName": "E:\\nodejs\\task-server\\node_modules\\egg-security\\config\\config.default.js",
-      "sessionName": "E:\\nodejs\\task-server\\node_modules\\egg-security\\config\\config.default.js",
-      "headerName": "E:\\nodejs\\task-server\\node_modules\\egg-security\\config\\config.default.js",
-      "bodyName": "E:\\nodejs\\task-server\\node_modules\\egg-security\\config\\config.default.js",
-      "queryName": "E:\\nodejs\\task-server\\node_modules\\egg-security\\config\\config.default.js"
-    },
+    "csrf": "E:\\nodejs\\task-server\\config\\config.default.js",
     "domainWhiteList": "E:\\nodejs\\task-server\\config\\config.default.js",
     "protocolWhiteList": "E:\\nodejs\\task-server\\node_modules\\egg-security\\config\\config.default.js",
     "defaultMiddleware": "E:\\nodejs\\task-server\\node_modules\\egg-security\\config\\config.default.js",
