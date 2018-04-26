@@ -2,8 +2,7 @@
   {
     "name": null,
     "methods": [
-      "HEAD",
-      "GET"
+      "POST"
     ],
     "paramNames": [],
     "path": "/login",
@@ -18,8 +17,21 @@
       "POST"
     ],
     "paramNames": [],
-    "path": "/login",
-    "regexp": "/^\\/login(?:\\/(?=$))?$/",
+    "path": "/reg",
+    "regexp": "/^\\/reg(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/task",
+    "regexp": "/^\\/task(?:\\/(?=$))?$/",
     "stack": [
       "wrappedController"
     ]
