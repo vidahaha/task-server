@@ -1790,3 +1790,17 @@
 2018-04-26 21:46:22,240 INFO 11616 [egg-security] compose 6 middlewares into one security middleware
 2018-04-26 21:46:22,260 INFO 11616 [egg-watcher:app] watcher start success
 2018-04-26 21:46:22,265 INFO 11616 [egg-mysql] instance[0] status OK, rds currentTime: Thu Apr 26 2018 21:46:22 GMT+0800 (中国标准时间)
+2018-04-26 21:46:32,086 INFO 12992 [egg:logger] init all loggers with options: {"dir":"E:\\nodejs\\task-server\\logs\\task-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"task-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-04-26 21:46:32,125 INFO 12992 [egg-schedule]: register schedule E:\nodejs\task-server\node_modules\egg-logrotator\app\schedule\clean_log.js
+2018-04-26 21:46:32,125 INFO 12992 [egg-schedule]: register schedule E:\nodejs\task-server\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2018-04-26 21:46:32,143 INFO 12992 [egg-mysql] connecting root@localhost:3306/social_practice_management
+2018-04-26 21:46:32,229 INFO 12992 [egg-static] starting static serve /public/ -> E:\nodejs\task-server\app\public
+2018-04-26 21:46:32,232 INFO 12992 [egg-security] use methodnoallow middleware
+2018-04-26 21:46:32,232 INFO 12992 [egg-security] use noopen middleware
+2018-04-26 21:46:32,233 INFO 12992 [egg-security] use nosniff middleware
+2018-04-26 21:46:32,233 INFO 12992 [egg-security] use xssProtection middleware
+2018-04-26 21:46:32,233 INFO 12992 [egg-security] use xframe middleware
+2018-04-26 21:46:32,234 INFO 12992 [egg-security] use dta middleware
+2018-04-26 21:46:32,234 INFO 12992 [egg-security] compose 6 middlewares into one security middleware
+2018-04-26 21:46:32,256 INFO 12992 [egg-watcher:app] watcher start success
+2018-04-26 21:46:32,260 INFO 12992 [egg-mysql] instance[0] status OK, rds currentTime: Thu Apr 26 2018 21:46:32 GMT+0800 (中国标准时间)
