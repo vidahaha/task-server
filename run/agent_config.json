@@ -135,10 +135,6 @@
       "mapping": {}
     },
     "cors": {
-      "origin": [
-        "http://localhost:8080",
-        "http://www.vidahaha.top"
-      ],
       "credentials": true
     },
     "mysql": {

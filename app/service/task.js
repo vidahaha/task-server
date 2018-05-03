@@ -12,7 +12,8 @@ class TaskService extends Service {
             ele['task_state'] == 0 ? ele['task_state'] = '待审批' : ele['task_state'] = '已审批';
             ele['reward_state'] == null ? ele['reward_state'] = '未申请' 
             : ele['reward_state'] == 0 ? ele['reward_state'] = '待审批' 
-            : ele['reward_state'] = '已审批';
+            : ele['reward_state'] == 1 ? ele['reward_state'] = '已审批'
+            : ele['reward_state'] = '已拒绝';
 
             if ( ele.grade == "" || ele.grade == null) {
                 ele.grade = '暂无';
