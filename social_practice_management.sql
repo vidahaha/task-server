@@ -10,7 +10,7 @@ Target Server Type    : MYSQL
 Target Server Version : 50721
 File Encoding         : 65001
 
-Date: 2018-04-26 14:12:44
+Date: 2018-05-03 18:50:19
 */
 
 SET FOREIGN_KEY_CHECKS=0;
@@ -61,13 +61,19 @@ CREATE TABLE `task` (
   `task_lead_phone` varchar(255) DEFAULT NULL,
   `task_lead_email` varchar(255) DEFAULT NULL,
   `task_lead_qq` varchar(255) DEFAULT NULL,
+  `grade` varchar(255) DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=9 DEFAULT CHARSET=utf8;
 
 -- ----------------------------
 -- Records of task
 -- ----------------------------
-INSERT INTO `task` VALUES ('2', '校级', '华中农业大学经济管理学院赴湖北省大悟县“喜迎十九大”暑期社会实践团', '迎十九大，聚焦革命老区“两学一做”和“产业扶贫”', '2017年7月下旬', '湖北省孝感市大悟县', '0', null, null, null, null, null, '5', null, null, null, null, null, null, null, null, null, null);
+INSERT INTO `task` VALUES ('2', '校级', '华中农业大学经济管理学院赴湖北省大悟县“喜迎十九大”暑期社会实践团', '迎十九大，聚焦革命老区“两学一做”和“产业扶贫”', '2017年7月下旬', '湖北省孝感市大悟县', '1', null, null, '1', null, null, '5', null, null, null, null, null, null, null, null, null, null, '100');
+INSERT INTO `task` VALUES ('3', '院级', '的武器的期望的青蛙打网球', '的发放的权威认定缺点青蛙的', '的武器', '的武器的期望', '1', null, null, '1', null, null, '5', null, null, null, null, null, null, null, null, null, null, null);
+INSERT INTO `task` VALUES ('5', '校级', '华中农业大学经济管理学院赴湖北省大悟县“喜迎十九大”暑期社会实践团', '迎十九大，聚焦革命老区“两学一做”和“产业扶贫”', '2017年7月下旬', '湖北省孝感市大悟县', '1', '', '', '2', null, null, '5', '', '', '', '', '', '', null, '', '', '', '');
+INSERT INTO `task` VALUES ('6', '校级', '华中农业大学经济管理学院赴湖北省大悟县“喜迎十九大”暑期社会实践团', '迎十九大，聚焦革命老区“两学一做”和“产业扶贫”', '2017年7月下旬', '湖北省孝感市大悟县', '0', '', '', '0', null, null, '5', '', '', '', '', '', '', null, '', '', '', '');
+INSERT INTO `task` VALUES ('7', '校级', '华中农业大学经济管理学院赴湖北省大悟县“喜迎十九大”暑期社会实践团', '迎十九大，聚焦革命老区“两学一做”和“产业扶贫”', '2017年7月下旬', '湖北省孝感市大悟县', '0', '', '', '0', null, null, '5', '', '', '', '', '', '', null, '', '', '', '');
+INSERT INTO `task` VALUES ('8', '校级', '华中农业大学经济管理学院赴湖北省大悟县“喜迎十九大”暑期社会实践团', '迎十九大，聚焦革命老区“两学一做”和“产业扶贫”', '2017年7月下旬', '湖北省孝感市大悟县', '0', '', '', '0', null, null, '5', '', '', '', '', '', '', null, '', '', '', '');
 
 -- ----------------------------
 -- Table structure for task_member
