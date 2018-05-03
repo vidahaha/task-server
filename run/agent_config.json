@@ -8,7 +8,8 @@
     },
     "security": {
       "domainWhiteList": [
-        "http://localhost:8080"
+        "http://localhost:8080",
+        "http://www.vidahaha.top"
       ],
       "protocolWhiteList": [],
       "defaultMiddleware": "csrf,hsts,methodnoallow,noopen,nosniff,csp,xssProtection,xframe,dta",
@@ -134,7 +135,10 @@
       "mapping": {}
     },
     "cors": {
-      "origin": "http://localhost:8080",
+      "origin": [
+        "http://localhost:8080",
+        "http://www.vidahaha.top"
+      ],
       "credentials": true
     },
     "mysql": {

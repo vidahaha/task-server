@@ -49,7 +49,6 @@
     }
   },
   "cors": {
-    "origin": "E:\\nodejs\\task-server\\config\\config.default.js",
     "credentials": "E:\\nodejs\\task-server\\config\\config.default.js"
   },
   "mysql": {
