@@ -25,8 +25,9 @@ module.exports = appInfo => {
 		port: '3306',
 		// username
 		user: 'root',
-		// password
-		password: '123456',
+        // password
+        //password: '123456',
+		password: 'qq937634115',
 		// database
 		database: 'social_practice_management',    
 		},

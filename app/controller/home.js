@@ -22,6 +22,17 @@ class HomeController extends Controller {
 		}
     }
 
+    async apply () {
+        const apply = this.ctx.service.apply;
+		const body =  this.ctx.request.body;
+		const res = await apply.do( body );		
+
+		this.ctx.body = {
+            status: res.status,
+            msg: res.msg
+		}
+    }
+
     async task () {
         const task = this.ctx.service.task;
 		const res = await task.getTask();		

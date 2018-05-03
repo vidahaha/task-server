@@ -178,7 +178,7 @@
         "host": "localhost",
         "port": "3306",
         "user": "root",
-        "password": "<String len: 6>",
+        "password": "<String len: 11>",
         "database": "social_practice_management"
       }
     },
